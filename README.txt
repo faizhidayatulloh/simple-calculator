@@ -1,4 +1,4 @@
-<h1>How to install :</h1>
+How to install :
 1. Download the repository to your local computer.
 2. install python on your computer.
 3. install requirements.txt with the syntax " pip install -r requirements.txt ".
