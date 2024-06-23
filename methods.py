@@ -1,10 +1,10 @@
 def jumlah():
 	hasil=0
 	no=2
-	print('type "x" to end')
+	print('type "x" to exit !')
 	while True:
-		a=input('angka ke ------- 1 : ')
-		b=input('angka ke --------2 : ')
+		a=input('Number ------- 1th : ')
+		b=input('Number --------2th : ')
 		a=float(a)
 		b=float(b)
 		hasil=a+b
@@ -12,11 +12,11 @@ def jumlah():
 		if hasil!='x':
 			break
 	while True:
+		print('Type "x" to exit addition !')
 		no+=1
-		a=input(f'angka ke -------{no}: ')
+		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
-		a=float(a)
 		a=float(a)
 		hasil=hasil+a
 		print(f'hasil = ({hasil})')
@@ -25,10 +25,10 @@ def jumlah():
 def kurang():
 	hasil=0
 	no=2
-	print('ketik "x" untuk keluar.')
+	print('Type "x" to exit !')
 	while True:
-		a=input('angka ke ------- 1 : ')
-		b=input('angka ke --------2 : ')
+		a=input('Number ------- 1th : ')
+		b=input('Number --------2th : ')
 		a=int(a)
 		b=int(b)
 		hasil=a-b
@@ -37,7 +37,7 @@ def kurang():
 			break
 	while True:
 		no+=1
-		a=input(f'angka ke -------{no}: ')
+		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
 		a=int(a)
@@ -47,10 +47,10 @@ def kurang():
 def kali():
 	hasil=0
 	no=2
-	print('ketik "x" untuk keluar')
+	print('Type "x" to exit !')
 	while True:
-		a=input('angka ke ------- 1 : ')
-		b=input('angka ke --------2 : ')
+		a=input('Number ------- 1th : ')
+		b=input('Number --------2th : ')
 		a=float(a)
 		b=float(b)
 		hasil=a*b
@@ -59,7 +59,7 @@ def kali():
 			break
 	while True:
 		no+=1
-		a=input(f'angka ke -------{no}: ')
+		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
 		a=float(a)
@@ -69,10 +69,10 @@ def kali():
 def bagi():
 	hasil=0
 	no=2
-	print('ketik "x" untuk keluar')
+	print('Type "x" to exit !')
 	while True:
-		a=input('angka ke ------- 1 : ')
-		b=input('angka ke --------2 : ')
+		a=input('Number ------- 1th : ')
+		b=input('Number --------2th : ')
 		a=int(a)
 		b=int(b)
 		hasil=a/b
@@ -81,7 +81,7 @@ def bagi():
 			break
 	while True:
 		no+=1
-		a=input(f'angka ke -------{no}: ')
+		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
 		a=int(a)
