@@ -3,16 +3,12 @@ init()
 print(Style.BRIGHT)
 print(Fore.BLUE	)
 import methods
-print('calkulator')
-print('============')
-print('1.addition ')
-print('2.subtraction')
-print('3.multiplication')
-print('4.division')
-print('0.exit')
-print("___________________")
+print("Simple Calculator")
+print("_________________")
 while True:
-	pilih=input('choose: ("0" to exit calculator !) ')
+	print('1.addition\n2.substractin\n3.multiplication\n4.division\n0.exit')
+	print("__________________________")
+	pilih=input('Choose :')
 	if pilih== "1":
 		methods.jumlah()
 	elif pilih== "2":

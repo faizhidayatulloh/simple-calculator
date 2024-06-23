@@ -1,90 +1,165 @@
 def jumlah():
+	def ubah(nilai):
+		try :
+			return float(nilai)
+		except ValueError:
+			return None
 	hasil=0
 	no=2
-	print('type "x" to exit !')
 	while True:
 		a=input('Number ------- 1th : ')
 		b=input('Number --------2th : ')
-		a=float(a)
-		b=float(b)
+		rubah_a = ubah(a)
+		rubah_b = ubah(b)
+		if rubah_a is not None and rubah_b is not None:
+			a=float(a)
+			b=float(b)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
 		hasil=a+b
 		print(f'hasil = ({hasil})')
 		if hasil!='x':
 			break
+	print('Type lower "x" to exit additoin !')
 	while True:
-		print('Type "x" to exit addition !')
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
-		a=float(a)
+		rubah = ubah(a)
+		if rubah is not None:
+			a=float(a)
+		else:
+			print("Number Only!!")
+			no-=1
+			continue
 		hasil=hasil+a
-		print(f'hasil = ({hasil})')
-	print(f'                            total = {hasil}')
+		print(f'Total = ({hasil})')
+	print(f'total = {hasil}')
 
 def kurang():
+	def ubah(nilai):
+		try :
+			return float(nilai)
+		except ValueError:
+			return None
 	hasil=0
 	no=2
-	print('Type "x" to exit !')
 	while True:
 		a=input('Number ------- 1th : ')
 		b=input('Number --------2th : ')
-		a=int(a)
-		b=int(b)
+		rubah_a = ubah(a)
+		rubah_b = ubah(b)
+		if rubah_a is not None and rubah_b is not None:
+			a=float(a)
+			b=float(b)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
 		hasil=a-b
-		print(f'{no}.hasil = ({hasil})')
+		print(f'hasil = ({hasil})')
 		if hasil!='x':
 			break
+	print('Type lower "x" to exit additoin !')
 	while True:
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
-		a=int(a)
-		hasil-=a
-		print(f'hasil = ({hasil})')
-	print(f'                              total = {hasil}')
+		rubah = ubah(a)
+		if rubah is not None:
+			a=float(a)
+		else:
+			print("Number Only!!")
+			no-=1
+			continue
+		hasil=hasil-a
+		print(f'Total = ({hasil})')
+	print(f'total = {hasil}')
 def kali():
+	def ubah(nilai):
+		try :
+			return float(nilai)
+		except ValueError:
+			return None
 	hasil=0
 	no=2
-	print('Type "x" to exit !')
 	while True:
 		a=input('Number ------- 1th : ')
 		b=input('Number --------2th : ')
-		a=float(a)
-		b=float(b)
+		rubah_a = ubah(a)
+		rubah_b = ubah(b)
+		if rubah_a is not None and rubah_b is not None:
+			a=float(a)
+			b=float(b)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
 		hasil=a*b
 		print(f'hasil = ({hasil})')
 		if hasil!='x':
 			break
+	print('Type lower "x" to exit additoin !')
 	while True:
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
-		a=float(a)
-		hasil*=a
-		print(f'hasil = ({hasil})')
-	print(f'            total = {hasil}')
+		rubah = ubah(a)
+		if rubah is not None:
+			a=float(a)
+		else:
+			print("Number Only!!")
+			no-=1
+			continue
+		hasil=hasil*a
+		print(f'Total = ({hasil})')
+	print(f'total = {hasil}')
 def bagi():
+	def ubah(nilai):
+		try :
+			return float(nilai)
+		except ValueError:
+			return None
 	hasil=0
 	no=2
-	print('Type "x" to exit !')
 	while True:
 		a=input('Number ------- 1th : ')
 		b=input('Number --------2th : ')
-		a=int(a)
-		b=int(b)
+		rubah_a = ubah(a)
+		rubah_b = ubah(b)
+		if rubah_a is not None and rubah_b is not None:
+			a=float(a)
+			b=float(b)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
 		hasil=a/b
 		print(f'hasil = ({hasil})')
 		if hasil!='x':
 			break
+	print('Type lower "x" to exit additoin !')
 	while True:
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
 			break
-		a=int(a)
-		hasil/=a
-		print(f'hasil = ({hasil})')
-	print(f'                total = {hasil}')
+		rubah = ubah(a)
+		if rubah is not None:
+			a=float(a)
+		else:
+			print("Number Only!!")
+			no-=1
+			continue
+		hasil=hasil/a
+		print(f'Total = ({hasil})')
+	print(f'total = {hasil}')
