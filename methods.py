@@ -20,7 +20,7 @@ def jumlah():
 			print("_________________")
 			continue
 		hasil=a+b
-		print(f'hasil = ({hasil})')
+		print(f'                                      = ({hasil})')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
@@ -37,8 +37,8 @@ def jumlah():
 			no-=1
 			continue
 		hasil=hasil+a
-		print(f'Total = ({hasil})')
-	print(f'total = {hasil}')
+		print(f'                                        = ({hasil})')
+	print(f'                                          total = {hasil}')
 
 def kurang():
 	def ubah(nilai):
@@ -62,7 +62,7 @@ def kurang():
 			print("_________________")
 			continue
 		hasil=a-b
-		print(f'hasil = ({hasil})')
+		print(f'                                            = ({hasil})')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
@@ -79,8 +79,8 @@ def kurang():
 			no-=1
 			continue
 		hasil=hasil-a
-		print(f'Total = ({hasil})')
-	print(f'total = {hasil}')
+		print(f'                                            = {hasil}')
+	print(f'                                          total = {hasil}')
 def kali():
 	def ubah(nilai):
 		try :
@@ -103,7 +103,7 @@ def kali():
 			print("_________________")
 			continue
 		hasil=a*b
-		print(f'hasil = ({hasil})')
+		print(f'                                                  = ({hasil})')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
@@ -120,8 +120,8 @@ def kali():
 			no-=1
 			continue
 		hasil=hasil*a
-		print(f'Total = ({hasil})')
-	print(f'total = {hasil}')
+		print(f'                                            = ({hasil})')
+	print(f'                                              total = {hasil}')
 def bagi():
 	def ubah(nilai):
 		try :
@@ -144,7 +144,7 @@ def bagi():
 			print("_________________")
 			continue
 		hasil=a/b
-		print(f'hasil = ({hasil})')
+		print(f'                                                 = ({hasil})')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
@@ -161,5 +161,5 @@ def bagi():
 			no-=1
 			continue
 		hasil=hasil/a
-		print(f'Total = ({hasil})')
-	print(f'total = {hasil}')
+		print(f'                                                    = ({hasil})')
+	print(f'                                                        total = {hasil}')

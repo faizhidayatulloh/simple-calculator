@@ -1,7 +1,7 @@
 from colorama import Fore,init,Style
 init()
 print(Style.BRIGHT)
-print(Fore.BLUE	)
+print(Fore.RED	)
 import methods
 print("Simple Calculator")
 print("_________________")
