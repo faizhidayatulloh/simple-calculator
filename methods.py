@@ -9,8 +9,13 @@ def jumlah():
 	hasil=0
 	no=2
 	while True:
+		print('Type "x" to exit !')
 		a=input('Number ------- 1th : ')
+		if a =='x':
+			break
 		b=input('Number --------2th : ')
+		if b =="x":
+			break
 		rubah_a = ubah(a)
 		rubah_b = ubah(b)
 		if rubah_a is not None and rubah_b is not None:
@@ -27,6 +32,10 @@ def jumlah():
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
+		if a=='x':
+			break
+		elif b=="x":
+			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
@@ -51,8 +60,13 @@ def kurang():
 	hasil=0
 	no=2
 	while True:
+		print('Type "x" to exit !')
 		a=input('Number ------- 1th : ')
+		if a =='x':
+			break
 		b=input('Number --------2th : ')
+		if b =='x':
+			break
 		rubah_a = ubah(a)
 		rubah_b = ubah(b)
 		if rubah_a is not None and rubah_b is not None:
@@ -69,6 +83,10 @@ def kurang():
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
+		if a =='x':
+			break
+		if b =='x':
+			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
@@ -92,8 +110,13 @@ def kali():
 	hasil=0
 	no=2
 	while True:
+		print('type "x" to exit !')
 		a=input('Number ------- 1th : ')
+		if a =='x':
+			break
 		b=input('Number --------2th : ')
+		if b =='x':
+			break
 		rubah_a = ubah(a)
 		rubah_b = ubah(b)
 		if rubah_a is not None and rubah_b is not None:
@@ -110,6 +133,10 @@ def kali():
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
+		if a =='x':
+			break
+		if b =='x':
+			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
@@ -133,8 +160,13 @@ def bagi():
 	hasil=0
 	no=2
 	while True:
+		print('Type "x" to exit !')
 		a=input('Number ------- 1th : ')
+		if a =='x':
+			break
 		b=input('Number --------2th : ')
+		if b =='x':
+			break
 		rubah_a = ubah(a)
 		rubah_b = ubah(b)
 		if rubah_a is not None and rubah_b is not None:
@@ -151,6 +183,10 @@ def bagi():
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
+		if a =='x':
+			break
+		if b =='x':
+			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
 		if a=='x':
