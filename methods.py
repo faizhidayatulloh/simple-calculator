@@ -57,6 +57,7 @@ def jumlah():
 		print(f'                                                = {hasil}')
 	print(f'                                              total = {hasil}')
 
+
 def kurang():
 	def ubah(nilai):
 		try :
@@ -70,13 +71,19 @@ def kurang():
 		a=input('Number ------- 1th : ')
 		if a =='x':
 			break
-		b=input('Number --------2th : ')
-		if b =='x':
-			break
 		rubah_a = ubah(a)
-		rubah_b = ubah(b)
-		if rubah_a is not None and rubah_b is not None:
+		if rubah_a is not None:
 			a=float(a)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
+		b=input('Number --------2th : ')
+		if b =="x":
+			break
+		rubah_b = ubah(b)
+		if rubah_b is not None:
 			b=float(b)
 		else:
 			print("________________")
@@ -84,14 +91,14 @@ def kurang():
 			print("_________________")
 			continue
 		hasil=a-b
-		print(f'                                              = {hasil}')
+		print(f'                                               = {hasil}')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
-		if a =='x':
+		if a=='x':
 			break
-		if b =='x':
+		elif b=="x":
 			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
@@ -105,8 +112,9 @@ def kurang():
 			no-=1
 			continue
 		hasil=hasil-a
-		print(f'                                            = {hasil}')
-	print(f'                                          total = {hasil}')
+		print(f'                                                = {hasil}')
+	print(f'                                              total = {hasil}')
+
 def kali():
 	def ubah(nilai):
 		try :
@@ -116,17 +124,23 @@ def kali():
 	hasil=0
 	no=2
 	while True:
-		print('type "x" to exit !')
+		print('Type "x" to exit !')
 		a=input('Number ------- 1th : ')
 		if a =='x':
 			break
-		b=input('Number --------2th : ')
-		if b =='x':
-			break
 		rubah_a = ubah(a)
-		rubah_b = ubah(b)
-		if rubah_a is not None and rubah_b is not None:
+		if rubah_a is not None:
 			a=float(a)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
+		b=input('Number --------2th : ')
+		if b =="x":
+			break
+		rubah_b = ubah(b)
+		if rubah_b is not None:
 			b=float(b)
 		else:
 			print("________________")
@@ -134,14 +148,14 @@ def kali():
 			print("_________________")
 			continue
 		hasil=a*b
-		print(f'                                                    = {hasil}')
+		print(f'                                               = {hasil}')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
-		if a =='x':
+		if a=='x':
 			break
-		if b =='x':
+		elif b=="x":
 			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
@@ -155,8 +169,9 @@ def kali():
 			no-=1
 			continue
 		hasil=hasil*a
-		print(f'                                             = {hasil}')
+		print(f'                                                = {hasil}')
 	print(f'                                              total = {hasil}')
+
 def bagi():
 	def ubah(nilai):
 		try :
@@ -170,13 +185,19 @@ def bagi():
 		a=input('Number ------- 1th : ')
 		if a =='x':
 			break
-		b=input('Number --------2th : ')
-		if b =='x':
-			break
 		rubah_a = ubah(a)
-		rubah_b = ubah(b)
-		if rubah_a is not None and rubah_b is not None:
+		if rubah_a is not None:
 			a=float(a)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
+		b=input('Number --------2th : ')
+		if b =="x":
+			break
+		rubah_b = ubah(b)
+		if rubah_b is not None:
 			b=float(b)
 		else:
 			print("________________")
@@ -184,14 +205,14 @@ def bagi():
 			print("_________________")
 			continue
 		hasil=a/b
-		print(f'                                                  = {hasil}')
+		print(f'                                               = {hasil}')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
 	while True:
-		if a =='x':
+		if a=='x':
 			break
-		if b =='x':
+		elif b=="x":
 			break
 		no+=1
 		a=input(f'Number -------{no}th: ')
@@ -205,5 +226,5 @@ def bagi():
 			no-=1
 			continue
 		hasil=hasil/a
-		print(f'                                                          = {hasil}')
-	print(f'                                                        total = {hasil}')
+		print(f'                                                = {hasil}')
+	print(f'                                              total = {hasil}')
