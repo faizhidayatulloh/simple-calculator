@@ -13,13 +13,19 @@ def jumlah():
 		a=input('Number ------- 1th : ')
 		if a =='x':
 			break
+		rubah_a = ubah(a)
+		if rubah_a is not None:
+			a=float(a)
+		else:
+			print("________________")
+			print("Number Only !")
+			print("_________________")
+			continue
 		b=input('Number --------2th : ')
 		if b =="x":
 			break
-		rubah_a = ubah(a)
 		rubah_b = ubah(b)
-		if rubah_a is not None and rubah_b is not None:
-			a=float(a)
+		if rubah_b is not None:
 			b=float(b)
 		else:
 			print("________________")
@@ -27,7 +33,7 @@ def jumlah():
 			print("_________________")
 			continue
 		hasil=a+b
-		print(f'                                       = {hasil}')
+		print(f'                                               = {hasil}')
 		if hasil!='x':
 			break
 	print('Type lower "x" to exit additoin !')
@@ -48,8 +54,8 @@ def jumlah():
 			no-=1
 			continue
 		hasil=hasil+a
-		print(f'                                        = {hasil}')
-	print(f'                                          total = {hasil}')
+		print(f'                                                = {hasil}')
+	print(f'                                              total = {hasil}')
 
 def kurang():
 	def ubah(nilai):
