@@ -31,4 +31,5 @@ while True:
 
 print('------------------------')
 print('THANK YOU VERY MUCH')
+print('By Faiz Hidayat')
 print('=========================')
